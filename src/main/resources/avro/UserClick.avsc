@@ -1,0 +1,26 @@
+{
+  "namespace": "io.slurm.clients.userclick",
+  "type": "record",
+  "name": "UserClick",
+  "fields": [
+    {
+      "name": "clicked_at",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    },
+    {
+      "name": "user_agent",
+      "type": "string"
+    },
+    {
+      "name": "user_ip",
+      "type": "string"
+    },
+    {
+      "name": "website",
+      "type": "string"
+    }
+  ]
+}

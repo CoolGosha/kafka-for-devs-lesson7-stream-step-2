@@ -1,0 +1,15 @@
+{
+  "namespace": "io.slurm.clients.aggregateduserclick",
+  "type": "record",
+  "name": "AggregatedUserClick",
+  "fields": [
+    {
+      "name": "website",
+      "type": "string"
+    },
+    {
+      "name": "users_clicked",
+      "type": "int"
+    }
+  ]
+}
